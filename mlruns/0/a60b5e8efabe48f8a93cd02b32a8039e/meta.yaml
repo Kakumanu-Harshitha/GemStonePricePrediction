@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/GemStonePricePrediction/mlruns/0/a60b5e8efabe48f8a93cd02b32a8039e/artifacts
+end_time: 1765466947373
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a60b5e8efabe48f8a93cd02b32a8039e
+run_name: fortunate-jay-275
+run_uuid: a60b5e8efabe48f8a93cd02b32a8039e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765466932948
+status: 3
+tags: []
+user_id: admin
