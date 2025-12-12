@@ -224,7 +224,7 @@ Deployment using Docker
 
 Cloud deployment (AWS, Azure, GCP)
 
-##📬 OWNER
+## 📬 OWNER
 
-(Harshitha Kakumanu)[https://github.com/Kakumanu-Harshitha]
+[Harshitha Kakumanu](https://github.com/Kakumanu-Harshitha)
 
