@@ -224,7 +224,7 @@ Deployment using Docker
 
 Cloud deployment (AWS, Azure, GCP)
 
-📬 Contact
+##📬 OWNER
 
-Author: Harshitha Kakumanu
-GitHub: https://github.com/Kakumanu-Harshitha/GemStonePricePrediction
+(Harshitha Kakumanu)[https://github.com/Kakumanu-Harshitha]
+
