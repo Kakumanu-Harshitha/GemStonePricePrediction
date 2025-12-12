@@ -32,27 +32,48 @@ Detailed logging and custom exception handling
 ###📂 Project Structure
 GemStonePricePrediction/
 │
-├── main.py                                  
+├── main.py
+
 ├── src/
+
 │   └── DiamondPricePrediction/
+
 │       ├── components/
+
 │       │   ├── data_ingestion.py
+
 │       │   ├── data_transformation.py
+
 │       │   ├── model_trainer.py
+
 │       │   └── model_evaluation.py
+
 │       ├── pipelines/
+
 │       │   ├── training_pipeline.py
+
 │       │   └── prediction_pipeline.py
+
 │       ├── utils/
+
 │       │   └── utils.py
+
 │       ├── logger/
+
 │       │   └── logging.py
+
 │       ├── exception.py
+
 │       └── __init__.py
-├── templates/                               # HTML files (index, form, result)
-├── artifacts/                               # Generated artifacts after training
-├── logs/                                     # Log files
+
+├── templates/        
+                                             
+├── artifacts/            
+                                                
+├── logs/  
+                        
 ├── requirements.txt
+
 └── README.md
 
 ⚙️ Installation
@@ -99,32 +120,32 @@ Option 1: Flask
 python main.py
 
 ```
-Open in browser:
-
-http://127.0.0.1:5000/
 
 **Option 2: FastAPI**
 ```bash
 uvicorn main:app --reload --host 127.0.0.1 --port 8000
 ```
 
-**Visit:**
-
-UI:http://127.0.0.1:8000/predict
-
-API Docs: http://127.0.0.1:8000/docs
 
 Example JSON request:
 
 {
   "carat": 0.5,
+
   "depth": 61,
+
   "table": 58,
+
   "x": 5.1,
+
   "y": 5.2,
+
   "z": 3.1,
+
   "cut": "Ideal",
+
   "color": "E",
+
   "clarity": "SI1"
 }
 
@@ -193,7 +214,7 @@ Python 3.8+
 
 Full list in requirements.txt.
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
 Add XGBoost / RandomForest models
 
